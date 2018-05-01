@@ -1,11 +1,24 @@
 
 # Local setup and misc links
 
-[jupyter workbooks](http://localhost:8889/tree/Documents/IPython)
+[jupyter workbooks](http://localhost:8888/tree/Documents/IPython)
 
 [Tensorboard](http://veda:6006/#graphs&run=.)
 
 [models on GitHub](https://github.com/tensorflow/models)
+
+## Launch
+
+Tensorboard:
+```
+tensorboard.exe --logdir=./tryout.tf/
+```
+
+Jupyter:
+```
+jupyter-notebook --no-browser
+```
+
 
 # Installation
 
@@ -28,9 +41,9 @@ see files in directory:
 
 I chose this one as it does not actually include DNNs and I thought it might be a good introduction to Tensorflow basics.
 
-[Tensorflow Tutorials](https://www.tensorflow.org/tutorials/)
+[Link](https://www.tensorflow.org/tutorials/mandelbrot)
 
-
+It's quite good to check if everything is set up correctly, T
 
 
 # Second tutorial: MNIST
